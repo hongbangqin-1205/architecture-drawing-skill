@@ -1,0 +1,44 @@
+slide:
+  width: 1280
+  height: 720
+  aspect_ratio: "16:9"
+  background: "#F8FAFC"
+
+fonts:
+  default: "Microsoft YaHei"
+  east_asian_fallback: "Microsoft YaHei"
+
+layout:
+  preferred_default: blueprint
+  canvas:
+    left: 86
+    top: 86
+    width: 1040
+    height: 604
+  sidebar:
+    left: 1152
+    width: 104
+  layer_rail:
+    left: 24
+    width: 52
+  module_radius: 0
+  connector_style: straight-native-rectangle
+
+palette:
+  ink: "#0F172A"
+  muted: "#526174"
+  border: "#CBD5E1"
+  connector: "#94A3B8"
+  primary: "#0EA5E9"
+  primary_dark: "#0B4F8A"
+  surface: "#FFFFFF"
+  surface_tint: "#F8FBFF"
+  support_dark: "#0F766E"
+  warning: "#D97706"
+
+validation:
+  expected_slide_size_emu: "12192000,6858000"
+  expected_slide_count: 1
+  require_native_shapes: true
+  max_media_files_for_pure_diagram: 0
+  inspect_rendered_preview: true

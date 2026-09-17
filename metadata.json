@@ -1,0 +1,36 @@
+{
+  "name": "architecture-diagram-ppt",
+  "version": "1.1.0",
+  "description": "Create simplified, well-aligned business, data, technical, or data-structure architecture diagrams and export them as editable PowerPoint slides.",
+  "entrypoint": "SKILL.md",
+  "scripts": {
+    "python_wrapper": "scripts/main.py",
+    "shared_helpers": "scripts/utils.py",
+    "node_renderer": "scripts/build_editable_architecture_ppt.mjs"
+  },
+  "resources": {
+    "prompt": "resources/prompt.md",
+    "config": "resources/config.yaml",
+    "workflow": "resources/editable-ppt-workflow.md"
+  },
+  "compatibility": {
+    "platforms": ["windows", "macos", "linux"],
+    "python": ">=3.9",
+    "node": ">=18"
+  },
+  "capabilities": [
+    "Extract architecture layers from dense source material",
+    "Generate native-shape editable PowerPoint architecture diagrams",
+    "Use a blueprint layout with left layer rails, central bands, and a right sidebar",
+    "Validate slide dimensions, package integrity, font policy, and media count"
+  ],
+  "tags": [
+    "architecture",
+    "powerpoint",
+    "pptx",
+    "business-architecture",
+    "data-architecture",
+    "technical-architecture",
+    "editable-shapes"
+  ]
+}
